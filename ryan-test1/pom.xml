@@ -1,0 +1,135 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.ryan</groupId>
+  <artifactId>ryan-artefact1</artifactId>
+  <packaging>war</packaging>
+  <version>1.1</version>
+  <name>Ryans Lab Project</name>
+  <description>Sample java application</description>
+  <url>http://www.example.com</url>
+
+
+  <properties>
+    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+  </properties>
+
+  <distributionManagement>
+        <snapshotRepository>
+            <id>N2_repo</id>
+            <url>http://localhost:8082/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>N2_repo</id>
+            <url>http://localhost:8082/nexus/content/repositories/releases/</url>
+        </repository>
+  </distributionManagement>
+
+
+  <build>
+    <finalName>${project.artifactId}</finalName>
+
+    <plugins>
+    	
+    	
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <executions>
+        <execution>
+            <id>copy-dependencies</id>
+            <phase>prepare-package</phase>
+            <goals>
+                <goal>copy-dependencies</goal>
+            </goals>
+            <configuration>
+                <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                <overWriteReleases>false</overWriteReleases>
+                <overWriteSnapshots>false</overWriteSnapshots>
+                <overWriteIfNewer>true</overWriteIfNewer>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+
+<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.6</version>
+        <configuration>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+          <webResources>
+            <resource>
+              <!-- this is relative to the pom.xml directory -->
+              <directory>${project.build.directory}/lib</directory>
+            </resource>
+          </webResources>
+        </configuration>
+</plugin>
+
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.2.1</version>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.5</version>
+      </plugin>
+      
+      
+      
+    </plugins>
+  </build>
+  
+  <dependencies>
+    
+    
+   <dependency>
+      <groupId>xerces</groupId>
+      <artifactId>xercesImpl</artifactId>
+      <version>2.9.1</version>
+    </dependency>
+    
+   <dependency>
+      <groupId>commons-fileupload</groupId>
+      <artifactId>commons-fileupload</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+    
+   <dependency>
+      <groupId>org.opensaml</groupId>
+      <artifactId>opensaml</artifactId>
+      <version>2.6.1</version>
+   </dependency>
+   
+  <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-xml</artifactId>
+      <version>2.7.3</version>
+   </dependency>
+   
+     <dependency>
+      <groupId>commons-httpclient</groupId>
+      <artifactId>commons-httpclient</artifactId>
+      <version>3.1</version>
+   </dependency>
+   
+  </dependencies>
+  
+
+  <prerequisites>
+    <maven>3.0.3</maven>
+  </prerequisites>
+
+</project>

@@ -1,0 +1,560 @@
+digraph dependencies {
+  graph [
+    label="Dependency Graph for Ryans Lab Project"
+    labeljust=l
+    labelloc=t
+    fontsize=18
+    fontname="Serif"
+    ranksep=1
+    rankdir="TB"
+    nodesep=.05
+  ];
+  node [
+    fontsize=8
+    fontname="SanSerif"
+    shape="rectangle"
+  ];
+  edge [
+    fontsize=8
+    fontname="SanSerif"
+  ];
+  "com.ryan:ryan-project2:1.1" [
+    fontsize=14.0
+    label="com.ryan\nryan-project2\nwar\n1.1"
+    color="black"
+    fontcolor="black"
+    fillcolor="#dddddd"
+    style="solid,filled"
+  ];
+  "xerces:xercesImpl:2.9.1" [
+    fontsize=8.0
+    label="xerces\nxercesImpl\n2.9.1"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "xml-apis:xml-apis:1.3.04" [
+    fontsize=8.0
+    label="xml-apis\nxml-apis\n1.3.04"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "commons-fileupload:commons-fileupload:1.3.1" [
+    fontsize=8.0
+    label="commons-fileupload\ncommons-fileupload\n1.3.1"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "commons-io:commons-io:2.2" [
+    fontsize=8.0
+    label="commons-io\ncommons-io\n2.2"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "org.opensaml:opensaml:2.6.1" [
+    fontsize=8.0
+    label="org.opensaml\nopensaml\n2.6.1"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "org.opensaml:openws:1.5.1" [
+    fontsize=8.0
+    label="org.opensaml\nopenws\n1.5.1"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "org.opensaml:xmltooling:1.4.1" [
+    fontsize=8.0
+    label="org.opensaml\nxmltooling\n1.4.1"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "org.bouncycastle:bcprov-jdk15:1.46" [
+    fontsize=8.0
+    label="org.bouncycastle\nbcprov-jdk15\n1.46"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "commons-codec:commons-codec:1.7" [
+    fontsize=8.0
+    label="commons-codec\ncommons-codec\n1.7"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "joda-time:joda-time:2.2" [
+    fontsize=8.0
+    label="joda-time\njoda-time\n2.2"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "ca.juliusdavies:not-yet-commons-ssl:0.3.9" [
+    fontsize=8.0
+    label="ca.juliusdavies\nnot-yet-commons-ssl\n0.3.9"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "org.apache.santuario:xmlsec:1.5.6" [
+    fontsize=8.0
+    label="org.apache.santuario\nxmlsec\n1.5.6"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "xalan:serializer:2.7.1" [
+    fontsize=8.0
+    label="xalan\nserializer\n2.7.1"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "xml-resolver:xml-resolver:1.2" [
+    fontsize=8.0
+    label="xml-resolver\nxml-resolver\n1.2"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "xalan:xalan:2.7.1" [
+    fontsize=8.0
+    label="xalan\nxalan\n2.7.1"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "commons-httpclient:commons-httpclient:3.1" [
+    fontsize=8.0
+    label="commons-httpclient\ncommons-httpclient\n3.1"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "commons-logging:commons-logging:1.1.1" [
+    fontsize=8.0
+    label="commons-logging\ncommons-logging\n1.1.1"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "commons-collections:commons-collections:3.2.1" [
+    fontsize=8.0
+    label="commons-collections\ncommons-collections\n3.2.1"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "commons-lang:commons-lang:2.6" [
+    fontsize=8.0
+    label="commons-lang\ncommons-lang\n2.6"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "org.apache.velocity:velocity:1.7" [
+    fontsize=8.0
+    label="org.apache.velocity\nvelocity\n1.7"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "org.owasp.esapi:esapi:2.0.1" [
+    fontsize=8.0
+    label="org.owasp.esapi\nesapi\n2.0.1"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.7.3" [
+    fontsize=8.0
+    label="com.fasterxml.jackson.dataformat\njackson-dataformat-xml\n2.7.3"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "com.fasterxml.jackson.core:jackson-core:2.7.3" [
+    fontsize=8.0
+    label="com.fasterxml.jackson.core\njackson-core\n2.7.3"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "com.fasterxml.jackson.core:jackson-annotations:2.7.0" [
+    fontsize=8.0
+    label="com.fasterxml.jackson.core\njackson-annotations\n2.7.0"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "com.fasterxml.jackson.core:jackson-databind:2.7.3" [
+    fontsize=8.0
+    label="com.fasterxml.jackson.core\njackson-databind\n2.7.3"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.7.3" [
+    fontsize=8.0
+    label="com.fasterxml.jackson.module\njackson-module-jaxb-annotations\n2.7.3"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "org.codehaus.woodstox:stax2-api:3.1.4" [
+    fontsize=8.0
+    label="org.codehaus.woodstox\nstax2-api\n3.1.4"
+    color="black"
+    fontcolor="black"
+    fillcolor="white"
+    style="solid,filled"
+  ];
+  "xerces:xercesImpl:2.9.1" -> "xml-apis:xml-apis:1.3.04" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "com.ryan:ryan-project2:1.1" -> "xerces:xercesImpl:2.9.1" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=8.0
+  ];
+  "commons-fileupload:commons-fileupload:1.3.1" -> "commons-io:commons-io:2.2" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "com.ryan:ryan-project2:1.1" -> "commons-fileupload:commons-fileupload:1.3.1" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=8.0
+  ];
+  "org.opensaml:xmltooling:1.4.1" -> "org.bouncycastle:bcprov-jdk15:1.46" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:xmltooling:1.4.1" -> "commons-codec:commons-codec:1.7" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:xmltooling:1.4.1" -> "joda-time:joda-time:2.2" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:xmltooling:1.4.1" -> "ca.juliusdavies:not-yet-commons-ssl:0.3.9" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:xmltooling:1.4.1" -> "org.apache.santuario:xmlsec:1.5.6" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=8.0
+  ];
+  "org.opensaml:xmltooling:1.4.1" -> "xalan:serializer:2.7.1" [
+    label="runtime"
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=2.0
+  ];
+  "org.opensaml:xmltooling:1.4.1" -> "xml-resolver:xml-resolver:1.2" [
+    label="runtime"
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=2.0
+  ];
+  "org.opensaml:xmltooling:1.4.1" -> "xalan:xalan:2.7.1" [
+    label="runtime"
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:openws:1.5.1" -> "org.opensaml:xmltooling:1.4.1" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=36.0
+  ];
+  "org.opensaml:openws:1.5.1" -> "commons-codec:commons-codec:1.7" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:openws:1.5.1" -> "commons-httpclient:commons-httpclient:3.1" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:openws:1.5.1" -> "joda-time:joda-time:2.2" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.apache.santuario:xmlsec:1.5.6" -> "commons-logging:commons-logging:1.1.1" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:openws:1.5.1" -> "org.apache.santuario:xmlsec:1.5.6" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=8.0
+  ];
+  "org.opensaml:openws:1.5.1" -> "xalan:serializer:2.7.1" [
+    label="runtime"
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=2.0
+  ];
+  "org.opensaml:openws:1.5.1" -> "xml-resolver:xml-resolver:1.2" [
+    label="runtime"
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=2.0
+  ];
+  "org.opensaml:openws:1.5.1" -> "xalan:xalan:2.7.1" [
+    label="runtime"
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:opensaml:2.6.1" -> "org.opensaml:openws:1.5.1" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=36.0
+  ];
+  "org.opensaml:opensaml:2.6.1" -> "commons-codec:commons-codec:1.7" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:opensaml:2.6.1" -> "commons-collections:commons-collections:3.2.1" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:opensaml:2.6.1" -> "commons-lang:commons-lang:2.6" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.apache.velocity:velocity:1.7" -> "commons-collections:commons-collections:3.2.1" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:opensaml:2.6.1" -> "org.apache.velocity:velocity:1.7" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=8.0
+  ];
+  "org.opensaml:opensaml:2.6.1" -> "org.owasp.esapi:esapi:2.0.1" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:opensaml:2.6.1" -> "joda-time:joda-time:2.2" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "org.opensaml:opensaml:2.6.1" -> "xalan:serializer:2.7.1" [
+    label="runtime"
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=2.0
+  ];
+  "org.opensaml:opensaml:2.6.1" -> "xml-resolver:xml-resolver:1.2" [
+    label="runtime"
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=2.0
+  ];
+  "xalan:xalan:2.7.1" -> "xalan:serializer:2.7.1" [
+    label="runtime"
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=2.0
+  ];
+  "org.opensaml:opensaml:2.6.1" -> "xalan:xalan:2.7.1" [
+    label="runtime"
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "com.ryan:ryan-project2:1.1" -> "org.opensaml:opensaml:2.6.1" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=44.0
+  ];
+  "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.7.3" -> "com.fasterxml.jackson.core:jackson-core:2.7.3" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.7.3" -> "com.fasterxml.jackson.core:jackson-annotations:2.7.0" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "com.fasterxml.jackson.core:jackson-databind:2.7.3" -> "com.fasterxml.jackson.core:jackson-annotations:2.7.0" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "com.fasterxml.jackson.core:jackson-databind:2.7.3" -> "com.fasterxml.jackson.core:jackson-core:2.7.3" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.7.3" -> "com.fasterxml.jackson.core:jackson-databind:2.7.3" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=12.0
+  ];
+  "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.7.3" -> "com.fasterxml.jackson.core:jackson-core:2.7.3" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.7.3" -> "com.fasterxml.jackson.core:jackson-annotations:2.7.0" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.7.3" -> "com.fasterxml.jackson.core:jackson-databind:2.7.3" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=12.0
+  ];
+  "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.7.3" -> "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.7.3" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=16.0
+  ];
+  "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.7.3" -> "org.codehaus.woodstox:stax2-api:3.1.4" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=4.0
+  ];
+  "com.ryan:ryan-project2:1.1" -> "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.7.3" [
+    label=""
+    style="solid"
+    color="black"
+    fontcolor="black"
+    weight=24.0
+  ];
+}
